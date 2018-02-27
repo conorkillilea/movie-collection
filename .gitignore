@@ -1,0 +1,55 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+.iml
+*.iws
+*.iml
+*.ipr
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.ear
+
+*.jar
+*.zip
+*.pdf
+*.log
+*.msg
+*.properties
+*.project
+*.classpath
+nbactions*.*
+
+# Logs and databases #
+######################
+*.log
+*.sql
+# Do NOT ignore this file
+!.gitignore
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
